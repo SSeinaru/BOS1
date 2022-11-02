@@ -1,4 +1,5 @@
 from time import sleep
+
 def plot1():
     print("This story begins with a man named Clover Taurus")
     sleep(1)
@@ -13,6 +14,21 @@ def plot1():
     print("Hes a B-rank Adventurer, He just kinda does this for the funny xd lmao")
     sleep(1)
     print("Now that that is said lets begin")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
+    print("                                     ")
     plot2
 
 def plot2():
@@ -72,14 +88,43 @@ def plot4():
 def plot5():
     print("After that you get ready to head out")
 
-def Plot6():
+def plot6():
+    print("So right now you have 5 choices")
+    sleep(0.3)
+    print("A. You kill those slimes")
+    sleep(0.5)
+    print("B. You help rebuild the city")
+    sleep(0.5)
+    print("C. You search for the quest items")
+    sleep(0.5)
+    print("D. You walk around doing literally nothing (the most boring option)")
+    sleep(0.5)
+    print("E. You clean your home")
+    sleep(1)
+    print("So what will it be partner")
+    adventure = input().upper()
+    if adventure == "A":
+        plot7
+    elif adventure == "B":
+        plot15
+    elif adventure == "C":
+        plot30
+    elif adventure == "D":
+        plot48
+    elif adventure == "E":
+        plot50
+    else:
+        plot6
+
+def plot7():
+    print("So the slime hunt huh")
+    print("Wow thats boring as shit but hey")
+    print("What can I say im just a narrator")
+    print("So you search for a slime field")
+    print("You thought when there")
+    print("'This is gonna be so damn easy'")
+    print("Oh brother what wrong you are")
     print("")
-
-
-
-def Plot7():
-    print("")
-
 def plot8():
     print("")
 
@@ -93,7 +138,19 @@ def plot11():
     print("")
 
 def plot12():
-    print("")
+    print("So once again you have a choice.")
+    print("This time you can sneak away or you start sprinting full speed")
+    print("Obviously you can go quietly but slow")
+    print("Or you can go loud and fast")
+    print("Its time to decide")
+    print("A. Sprinting, Loud and Dumb")
+    print("B. Sneak, Silent but Slow")
+    choice = input().lower()
+
+    if choice == "a":
+        plot13
+    elif choice == "b":
+        plot14
 
 def plot13():
     print("")
@@ -104,6 +161,12 @@ def plot14():
 
 
 def plot15():
+    print("So you took the item quest")
+    print("You read what you needed to get")
+    print("You need to get the items")
+    print("A dragons tooth")
+    print("A Demonic slime core")
+    print("A Full mana potion")
     print("")
 
 def plot16():
@@ -278,3 +341,15 @@ def eind4():
 
 def eind5(): 
     print("")
+
+def intro():
+    print("Do you wish to start?")
+    answer = input().lower()
+    if answer == "yes":
+        plot1
+    elif answer == "no":
+        quit
+    else:
+        print("Mate thats not an acceptable answer")
+
+intro()
