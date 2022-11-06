@@ -2,18 +2,19 @@ from time import sleep
 
 def plot1():
     print("This story begins with a man named Clover Taurus")
-    sleep(1)
+    sleep(2)
     print("Hes not the biggest known man, but hes still quite popular")
-    sleep(1)
+    sleep(2)
     print("Ofcourse this isn't just some random ass boring story")
-    sleep(1)
+    sleep(2)
     print("because you are the one who makes the choices")
-    sleep(1)
+    sleep(2)
     print("some background info about Clover")
-    sleep(1)
+    sleep(2)
     print("Hes a B-rank Adventurer, He just kinda does this for the funny xd lmao")
-    sleep(1)
+    sleep(2)
     print("Now that that is said lets begin")
+    sleep(4)
     print("                                     ")
     print("                                     ")
     print("                                     ")
@@ -29,7 +30,7 @@ def plot1():
     print("                                     ")
     print("                                     ")
     print("                                     ")
-    plot2
+    plot2()
 
 def plot2():
     print("You wake up on your tatami mat")
@@ -56,10 +57,10 @@ def plot2():
     food = input().lower()
 
     if food == "a":
-        plot3
+        plot3()
     
     elif food == "b":
-        plot4
+        plot4()
 
 def plot3():
     print("So you decide to go buy some bread")
@@ -104,17 +105,17 @@ def plot6():
     print("So what will it be partner")
     adventure = input().upper()
     if adventure == "A":
-        plot7
+        plot7()
     elif adventure == "B":
-        plot15
+        plot15()
     elif adventure == "C":
-        plot30
+        plot30()
     elif adventure == "D":
-        plot48
+        plot48()
     elif adventure == "E":
-        plot50
+        plot50()
     else:
-        plot6
+        plot6()
 
 def plot7():
     print("So the slime hunt huh")
@@ -124,9 +125,15 @@ def plot7():
     print("You thought when there")
     print("'This is gonna be so damn easy'")
     print("Oh brother what wrong you are")
-    print("")
+    print("You start stabbing slimes")
+    print("Only to realise that nothing is happening")
+    print("You think 'Well fuck'")    
+    print("You start thinking on how to defeat these shits")
+    print("After multiple attemps you finally find out you have to pop them like a balloon")
+    plot8()
+
 def plot8():
-    print("")
+    print("After a while")
 
 def plot9():
     print("")
@@ -148,9 +155,9 @@ def plot12():
     choice = input().lower()
 
     if choice == "a":
-        plot13
+        plot13()
     elif choice == "b":
-        plot14
+        plot14()
 
 def plot13():
     print("")
@@ -346,7 +353,7 @@ def intro():
     print("Do you wish to start?")
     answer = input().lower()
     if answer == "yes":
-        plot1
+        plot1()
     elif answer == "no":
         quit
     else:
