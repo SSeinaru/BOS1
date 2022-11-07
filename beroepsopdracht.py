@@ -159,18 +159,31 @@ def plot6():
 
 def plot7():
     print("So the slime hunt huh")
+    sleep(1)
     print("Wow thats boring as shit but hey")
+    sleep(1)
     print("What can I say im just a narrator")
+    sleep(1)
     print("So you search for a slime field")
+    sleep(1)
     print("You thought when there")
+    sleep(1)
     print("'This is gonna be so damn easy'")
+    sleep(1)    
     print("Oh brother what wrong you are")
+    sleep(1)
     print("You start stabbing slimes")
+    sleep(1)
     print("Only to realise that nothing is happening")
+    sleep(1)
     print("You think 'Well fuck'")    
+    sleep(1)
     print("You start thinking on how to defeat these shits")
+    sleep(1)
     print("After multiple attemps you finally find out you have to pop them like a balloon")
+    sleep(1)
     print("but is has to be at a very specific place, between the eyes")
+    sleep(1)
     plot8()
 
 def plot8():
@@ -263,11 +276,17 @@ def plot11():
     
 def plot12():
     print("So once again you have a choice.")
+    sleep(1)
     print("This time you can sneak away or you start sprinting full speed")
+    sleep(1)
     print("Obviously you can go quietly but slow")
+    sleep(1)
     print("Or you can go loud and fast")
+    sleep(1)
     print("Its time to decide")
+    sleep(1)
     print("A. Sprinting, Loud and Dumb")
+    sleep(1)
     print("B. Sneak, Silent but Slow")
     choice = input().lower()
 
@@ -329,7 +348,6 @@ def plot14():
     print("You finally decide to head to bed, its been enough for the day")
     sleep(1)
     eind2()
-
 
 def plot15():
     print("You chose to help rebuild, wise choice")
@@ -428,6 +446,7 @@ def plot18():
         plot19()
     elif a == "b":
         plot20()
+
 def plot19():
     print("So the roof huh")
     sleep(1)
@@ -443,18 +462,72 @@ def plot19():
     sleep(1)
     print("During the speech you are looking around when suddenly")
     sleep(1)
-    print("You start to see cracks in the Support pillars creep down the pillars")\
+    print("You start to see cracks in the Support pillars creep down the pillars")
     sleep(1)
-    print("")
+    print("You scream for everyone to get out of there")
     sleep(1)
+    print("Everyone starts to look around sees the cracks")
+    sleep(1)
+    print("Panic breaks out while everyone tries to leave")
+    sleep(1)
+    print("you who got sent to the back gives up and goes to on a chair")
+    sleep(1)
+    print("waiting for your inevitable death")
     eind1()
 
-
 def plot20():
-    print("")
+    print("So the pillars good choice")
+    sleep(1)
+    print("Stability and strength of the pillars is upmost importance ;)")
+    sleep(1)
+    print("Thats why you took the lead in the pillars")
+    sleep(1)
+    print("Time to work on it mate")
+    sleep(1)
+    print("     9 hours later")
+    sleep(1)
+    print("The pillars and roof are finally finished")
+    sleep(1)
+    print("and your now in the hall itself")
+    sleep(1)
+    print("You look around and admire the work all of you put into this")
+    sleep(1)
+    print("You are proud of yourself")
+    sleep(1)
+    print("The president is giving a speech of how proud of he is of us all")
+    sleep(1)
+    print("And that he'd like to reward us with anything that we desire to")
+    sleep(1)
+    print("you think about what you want for a second before knowing exactly what you want")
+    sleep(1)
+    print("You ask for someone to help clean in the house while your away")
+    sleep(1)
+    print("He responds with that he can fix that for you, you smile and you go home")
+    sleep(1)
+    print("Tired after such a long day")
+    sleep(1)
+    print("You get home and decide to sleep")
+    sleep(1)
+    print("you are proud of yourself and fall asleep with a smile")
+    eind2()
+
 
 def plot21(): 
-    print("")
+    print("You decide to help with the roads")
+    sleep(1)
+    print("You walk to the built on roads and ask around who's in charge")
+    sleep(1)
+    print("Eventually you find the man in charge and ask if there is anything you can do")
+    sleep(1)
+    print("He answers with 'Of course you can help here in the city or outside the gates'")
+    sleep(1)
+    print("'But if you go out the gates be aware of anything around you'")
+    sleep(1)
+    print("'Anything outside the walls doesn't know the word mercy'")
+    sleep(1)
+    print("You start to think about it")
+    sleep(1)
+
 
 def plot22(): 
     print("")
@@ -630,5 +703,4 @@ def intro():
         quit
     else:
         print("Mate thats not an acceptable answer")
-
-intro
+intro()
