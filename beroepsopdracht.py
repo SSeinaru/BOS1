@@ -527,32 +527,132 @@ def plot21():
     sleep(1)
     print("You start to think about it")
     sleep(1)
-
+    plot22()
 
 def plot22(): 
-    print("")
+    print("So you once again for the so manieth time have a choice to make")
+    sleep(1)
+    print("What is it this time")
+    sleep(1)
+    print("A. Inside")
+    print("B. Outside")
+    B = input().lower()
+    if B == "a":
+        plot23()
+    elif B == "b":
+        plot24()
 
 def plot23(): 
-    print("")
+    print("So the save option huh")
+    print("good choice? idk anymore tbh its all just some text displayed on a screen")
+    print("So you choose to work on the inside")
+    print("You look around to see where you can start")
+    print("You realise that you are no where near somewhere you can start")
+    print("Something doesn't feel right, how did you end up here")
+    print("You start following a road not knowing where you are")
+    print("After a while you look up again and suddenly find out you are in the middle of the forrest")
+    print("You don't even remember walking here")
+    print("Suddenly you hear hissing and bushes shake")
+    print("You start to run")
+    print("IT catches up and cuts your tendans in your leg")
+    print("You fall face first")
+    print("You accept the brace of death for what is about to happen to you")
+    print("...")
+    eind1()
 
 def plot24(): 
-    print("")
+    print("So you are working outside huh")
+    print("Thats a choice i guess")
+    print("Anyways you start to walk out the gates and to the nearest road thats under construction")
+    print("You see others already working hard")
+    print("You start to help around to anyone who needs it")
+    print("A few hours later")
+    print("It was time to stop for most of the road has been completed")
+    print("Everyone starts to walk back to the gate and gets let in")
+    print("You get the free food they offered for the workers")
+    print("After the food you and some others decide to head to a tavern")
+    print("After that you head back home and straight to bed when you reached home")
+    eind2()
 
 def plot25(): 
-    print("")
+    print("You head back home to work on your own home for once")
+    print("You realise when you head home how bad your own house is")
+    print("You look at your own decrepped and broken down shack of your house")
+    print("You enter and look around")
+    print("The more you look around the more you realise how broken it is")
+    print("You say fuck it and start to sort out all your stuff into garbage and not so garbage")
+    print("At the end you have 2 massive piles of stuff you want to keep and stuff to throw away")
+    print("You decide to put the stuff you want into boxes in a store place")
+    print("And you sell the rest somewhere to help with paying for the house")
+    print("Later after everything was sold you had enough to do 1 of 3 things")
+    plot26()
 
 def plot26(): 
-    print("")
+    print("You were thinking of 3 styles for your house")
+    print("A. You destroy it and rebuild it with a completely new style")
+    print("B. You repair the house and strengthen it with slight redesigns")
+    print("C. You buy a new house")
+    c = input().lower()
+    if c == "a":
+        plot27()
+    elif c == "b":
+        plot28()
+    elif c == "c":
+        plot29()
+    else:
+        plot26()
+
 
 def plot27(): 
-    print("")
+    print("Once again you decide to destroy and rebuild the house")
+    print("Not like you have done this before so here we go")
+    print("You start thinking for the style of the house and decide to go with traditional japanese")
+    print("You find the builders guild and ask some for help")
+    print("You successfully hire the builders and go to work")
+    print("To destroy it you chopped it down, it was made from wood anyways")
+    print("Free wood for the winter")
+    print("You and the builders discuss on what the best plan of action is for building the house")
+    print("All of you decide to just do it the traditional way")
+    print("1 week later")
+    print("The house is finally finished and your so goddamn proud of it with the builders")
+    print("You pay all of them the last bit they earned and you invite them to the tavern")
+    print("After that you decide to go back home and sleep")
+    eind6()
 
 def plot28(): 
-    print("")
+    print("So you planned to stay with what you have and build uppon it")
+    print("You call some builders to help")
+    print("After you wait for the builders to arrive")
+    print("When evetually the builders arrived all of you went to work and started to plan it out")
+    print("All of you decided to do it the best way possible")
+    print("You all decide to strengthen the house at all possible points you can")
+    print("It will take a while to actually make the house look good once again")
+    print("A paintjob and a a lot of grinding and stengthening everything")
+    print("2 weeks later")
+    print("You are all finally done with the task of hell")
+    print("All of you look at the result and are proud as absolute hell")
+    print("You all sit there with the thought of we did that shit")
+    print("You treat all of them to a bear and become good pals")
+    print("after that you head inside and went to bed")
+    eind6()
 
 def plot29(): 
-    print("")
-
+    print("You finally scrap that old hole of yours")
+    print("To straight up decide to live somewhere else")
+    print("I mean you have the money for it so why not yk its always better than that scrap of yours")
+    print("You ask for help from family on how to get a house")
+    print("They help and eventually you find a house")
+    print("After you buy it you get help with moving in")
+    print("Everyone there helps")
+    print("At the end of it all you are left with a gorgeous house")
+    print("you thank everyone with a piece of cake and something drink")
+    print("After that everyone starts to leave and you are finally alone")
+    print("The first thing you think of is ways to use the space to its full use")
+    print("But thats for another day")
+    print("It has been a long day and so you head to bed")
+    print("Smiling of your new home")
+    print("As time goes by you starts to close your eyes and once more fall asleep")
+    eind6()
 
 items = ["A dragons tooth", "A demonic slime core", "A full restore mana potion", "A high mana crystal"]
 def plot30():    
@@ -563,118 +663,496 @@ def plot30():
     print(items[1])
     print(items[2])
     print(items[3])
-    print("")
+    print("You basically know how to get most of them")
+    print("but your missing on where to get them")
+    print("but right now the most important part is the act of choosing what goes first")
 
 def plot31(): 
-    print("")
+    print("So for which one are you going first")
+    print("You have to get them all anyways so why does it matter")
+    print("So lets go")
+
+def question3():
+    print("A.", items[0])
+    print("B.", items[1])
+    print("C.", items[2])
+    print("D.", items[3])
+    D = input().lower()
+    if D == "a":
+        plot32()
+        list.remove[0]
+    elif D == "b":
+        plot38()
+        list.remove[1]
+    elif D == "c":
+        plot41()
+        list.remove[2]
+    elif D == "d":
+        plot42()
+        list.remove[3]
+    else:
+        question3()        
 
 def plot32(): 
-    print("")
+    print("So your starting with the dragons tooth")
+    print("Not the hardest to find, just the most annoying")
+    print("You start to look at places where you could get one")
+    print("You realise that they aren't the most expensive things to buy")
+    print("but you also find out that they aren't hard to get either")
+    print("So you start to think oin how to do it")
+    print("So now you are once again stuck with 2 options")
+    print("you can either")
+    print("A. Find a Dragon or tooth itself")
+    print("B. Buy one for a decent price")
+    print("So what will it be partner")
+    E = input().lower()
+    if E == "a":
+        plot33()
+    elif E == "b":
+        plot37()
 
 def plot33(): 
-    print("")
+    print("So finding it yourself won't be hard")
+    print("But getting the actual tooth will be the problem")
+    print("You remember you heard someone around the board say that heard people said that there was a dragon in the volcano")
+    print("So your go back home to prepare on facing the dragon")
+    print("When you got home you searched around for some better equipment")
+    print("Eventually you find a sniper rifle and a katana")
+    print("That already helps a lot you thought")
+    print("You start to head to the volcano")
+    print("When you get there you already see the dragon")
+    print("He's laying in the middle of an open area surrounded by old infrastructure")
+    print("You start to think how you are gonna do this")
+    print("You come up with 3 strageties")
+    print("You go for his eyes first, the tooth or the legs")
+    print("So what are you going with?")
+    print("A. Get the eyes")
+    print("B. Go straight for the tooth")
+    print("C. Go for the legs to immobilize him")
+    F = input().lower()
+    if F == "a":
+        plot34()
+    elif F == "b":
+        plot35()
+    elif F == "c":
+        plot36()
 
-def plot34(): 
-    print("")
+newlist = [] 
+def plot34():
+    
+    print("You grab the sniper and aim for his right eye")
+    print("You shoot and hit it destroying it")
+    print("The dragon shoots up in anger and looks at you with rage")
+    print("You know this is gonna be difficult but this just got much worse")
+    print("You aim again for his left eye now")
+    print("You shoot but miss, He's too fast")
+    print("You put the sniper back over your shoulder as you dodge the dragons attack")
+    print("You grab the katana and the glock you still had with you")
+    print("You shoot for the dragons eye again")
+    print("You hit but it doesn't do a lot of damage")
+    print("You sprint to the dragon with your katana")
+    print("As the dragon comes for you you dodge making him hit himself on a wall")
+    print("When he gets disoriented you climb onto his head")
+    print("If your quick you can stab his eye")
+    print("You go for the eye barely hitting it but hitting it good enough for the dragon to lose vision")
+    print("You use this opportunity to stab the dragon in his throat multiple times")
+    print("The dragon eventually dies")
+    print("After the dragon died you took a few teeth")
+    newlist.append("Dragons tooth")
 
 def plot35(): 
-    print("")
+    print("So straight to it huh")
+    print("Not my plan of action but hey its you who is doing it so i don't really care")
+    print("You sneak up to the dragon shoot it in his jaw")
+    print("Shattering it but nothing comes out")
+    print("You think to yourself 'Fuck'")
+    print("The dragon stands up enraged")
+    print("He just charges something but it doesn't come")
+    print("The dragon can't do anything his jaw is shattered")
+    print("You take this opporunity to shoot it right between its eyes")
+    print("Suprisingly enough it works and the dragon falls over")
+    print("You take some teeth and leave")
+    newlist.append("Dragons tooth")
 
 def plot36(): 
-    print("")
+    print("So you go for his legs huh")
+    print("You cut his legs and causes the dragon to not being able to stand")
+    print("Then you realise the dragon can fly")
+    print("Dragon starts to fly and charge an attack")
+    print("The dragon fires its beam and fucking kills you in a heartbeat")
+    print("That was fucking dumb")
+    eind1()
 
 def plot37(): 
-    print("")
+    print("You go to buy one")
+    print("Really boring but it gets the work done")
+    print("You go to an auction and there is one for auction at that moment")
+    print("You join in on the bidding and eventually win")
+    print("It costing a fuck ton but besides that")
+    print("You finally have the tooth")
+    newlist.append("Dragons tooth")
+
+def question6():
+    print("Do you wish to continue with this quest")
+    print("Or do you wish to stop for now?")
+    print("A. Continue")
+    print("B. Stop")
+    Z = input().lower()
+    if Z == "a":
+        question3()
+    elif Z == "b":
+        quit
 
 def plot38(): 
-    print("")
+    print("So your going with the DSC first")
+    print("Alright then good luck")
+    print("Unlike normal slimes Demonic slimes fight back")
+    print("So where will you start to look for DMC's")
+    print("Are you gonna buy one or hunt for one?")
+    print("Its on you")
+    print("A. Buy")
+    print("B. Search")
+    P = input().lower()
+    if P == "a":
+        plot39()
+    elif P == "b":
+        plot41()
 
 def plot39(): 
-    print("")
+    print("You decide to staight up buy one")
+    print("You know a store that sells slime cores")
+    print("You go there to see if they have a DMC")
+    print("You enter the shop and see a old lady at the counter")
+    print("She looks very happy to see someone enter the shop")
+    print("You walk to her and was about to ask if they had a DMC")
+    print("She starts talking and says 'You appear to be in the need of a DMC, am i correct?")
+    print("You sort of shocked answer yes")
+    print("You ask her how she knew")
+    print("She answers with that she didn't")
+    print("She tells you to wait here while she goes to get one")
+    print("After she gets back she shows 3 different DMC's")
+    print("You decide to go with the 3rd one")
+    print("She tells that that core used to belond to a mighty man named 'Tempest'")
+    print("She also tells that the other 2 were part of a orginization who wanted to kill every human on earth")
+    print("But were stopped by orginization called the 'Octagram'")
+    print("You decide to just all of them")
+    print("After you pay for all the items you leave")
+    print("You return home")
+    list.append("Demonic slime core")
+    question6()
 
 def plot40(): 
-    print("")
+    print("So hunting for it")
+    print("I will pray for your safety")
+    print("You begin with looking near the volcano")
+    print("Not going near the ruined city")
+    print("Eventually you do find a demon slime")
+    print("You attempt to shoot it between the eyes")
+    print("You miss the slime gets allerted")
+    print("You realise that this was a bad idea but now that you angered it you have to fight it")
+    print("You go in but realise as soon as you it it that its a slime")
+    print("So you say fuck it")
+    print("Point blank sniper shot")
+    print("You obviously hit the shot and the slime just fucking explodes")
+    print("After that you realise that that was way easier than you thought")
+    print("You grab the DMC and leave back home")
+    list.append("Demonic slime core")
+    question3()
 
 def plot41(): 
-    print("")
+    print("So the potion first huh")
+    print("atleast max mana potions are suprisingly cheap")
+    print("and since you don't wanna bother making one yourself")
+    print("You just decide to buy one instead")
+    print("You just go to the nearest brewery")
+    print("And just buy one there")
+    print("After that you go home")
+    list.append("High mana potion")
+    question6()
 
 def plot42(): 
-    print("")
+    print("So the Crystal now huh")
+    print("You could find them in caves or you could buy them")
+    print("I mean you can get them basically anywhere")
+    print("Grow them, mine them or buy them")
+    print("Growing takes a really long time")
+    print("so it would be mining of buying")
+    print("Mining can only be done in well the mines")
+    print("But specifically a high rich mana mine")
+    print("So what do you decide")
+    print("I will have to say they will probably be done pretty quickly")
+    print("A. Mine")
+    print("B. Buy")
+    Crys = input().lower()
+    if Crys == "a":
+        plot43()
+    elif Crys == "b":
+        plot44()
 
 def plot43(): 
-    print("")
+    print("So mining it")
+    print("I mean its a valid choice but might take a to find one")
+    print("You just straight up walk to the miners guild and ask if there are any high mana mines nearby")
+    print("They answer yea and just follow us")
+    print("we were gonna go there now anyways")
+    print("You all go there")
+    print("You grab a pickaxe and get to work")
+    print("Eventually you have enough crystals for a while")
+    print("And you finally decide to go home")
+    print("You thank the miners and leave")
+    print("You get back home with the crystals and put them somewhere for a bit")
+    list.append("High mana crystals")
+    question6()
 
 def plot44(): 
-    print("")
+    print("You just buy it")
+    print("You find a crystal shop")
+    print("An old lady is sitting behind the counter")
+    print("You walk up to her and was about the ask before she interupted you")
+    print("'Im going to guess that you are in the need for a high mana crystal")
+    print("You were shocked for a second and then answered yes")
+    print("She closes what she was doing and stands up and walks to the back")
+    print("Coming back with a bag full")
+    print("'There you go' you ask how much it will cost and she lists a price")
+    print("You're shocked thats pretty cheap compared to other places")
+    print("She answers that it doesn't really matter how expensive they are")
+    print("What matters is the quality")
+    print("You say thats fair and pay")
+    print("You grab the bag and thank the old lady")
+    list.append("High mana crystals")
+
+
+
 
 def plot45(): 
-    print("")
+    print("So you just walk around?")
+    print("Nothing else?")
+    print("boring af not gonna lie")
+    print("but hey its your life not mine")
+    print("You just walk around seeing the town hall and roads getting rebuilt")
+    print("Apparantly someone bombed the townhall and the roads have always been shitty")
+    print("You see people you know and say hello to them")
+    print("You have conversations with some and others just a simple hello")
+    print("After walking the entire day you just kinda go home")
+    print("You saw that it was getting dark")
+    print("When you get home you prepare some dinner for yourself")
+    print("You head to the pub later and go back home late")
+    print("When you get home all your met is your bed")
+    print("you doze to sleep as everything fades away")
+    eind3()
+
+
 
 def plot46(): 
-    print("")
+    print("You decide no its time to stop pushing everything away")
+    print("You return home to clean")
+    print("You look around and see which rooms are the worst")
+    print("Then you realise that every room is equally bad")
+    print("You think and start to realise that you have been living in this hell hole")
+    print("How did you never figure this out")
+    print("not even you know")
+    print("You don't have the biggest house")
+    plot47 ()
 
 def plot47(): 
-    print("")
+    print("So you have 4 rooms to clean")
+    print("Which one goes first?")
+    print("You have to clean all of them")
+    print("you have enough time")
+    print("Think about it for a bit and then choose")
+    print("The rooms are")
+    print("A. Living room")
+    print("B. Bedroom")
+    print("C. Kitchen")
+    print("D. Bathroom")
+    
+    Clean = input().lower()
+    if Clean == "a":
+        if plot48.counter == 1:
+            print("you have done that already")
+            print("Choose something else")
+            plot47()
+        elif plot48.counter == 0:
+            plot48()
+        
+    elif Clean == "b":
+        if plot51.counter == 1:
+            print("you have done that already")
+            print("Choose something else")
+            plot47()
+        elif plot51.counter == 0:
+            plot51()
 
+    elif Clean == "c":
+        if plot54.counter == 1:
+            print("you have done that already")
+            print("Choose something else")
+            plot47()
+        elif plot54.counter == 0:
+            plot54()
 
-
-def plot48(): 
-    print("")
+    elif Clean == "d":
+        if plot57.counter == 1:
+            print("you have done that already")
+            print("Choose something else")
+            plot47()
+        elif plot51.counter == 0:
+            plot57()
+    
+def plot48():
+    plot48.counter = 0
+    plot48.counter += 1
+    
+    print("You begin with the Living room")
+    print("Obviously since its the main room of the house")
+    print("The more you look around the more you realise how boring your house is")
+    print("You think should i clean correctly or just lightly enough to live and have some of your day left over")
+    print("so?")
+    print("A. Correctly")
+    print("B. Lightly")
+    how = input().lower()
+    if how == "a": 
+        plot49()
+    elif how == "b":
+        plot50()   
 
 def plot49(): 
-    print("")
-
-
+    print("You think well obviously i have to do it correctly")
+    print("You realise that there is a lot to do but you just do it")
+    print("You sort all of it into 2 piles")
+    print("Junk and collectibles")
+    print("All the junk you sell and the collectibles you keep")
+    print("After all the sorting you can finally begin cleaning")
+    print("When you're done you admire you work but realise you have so much more to do")
+    print("You sell all your junk and put the collectibles you put away around the room")
+    plot47()
 
 def plot50(): 
-    print("")
+    print("You clean it lightly")
+    print("Barely enough to make it a livable living condition")
+    print("You start to think that you should probably clean this way better")
+    print("All you do is sort stuff out")
+    print("You don't really do anything after sorting")
+    print("But hey atleast it looks a lot better now")
+    print("But you still havea long way to go")
+    plot47()
 
 def plot51(): 
-    print("")
+    plot51.counter = 0
+    plot51.counter += 1
+    print("Of course  your bedroom is one of the most important rooms")
+    print("Because well you sleep in it")
+    print("Pretty obvious not going to lie")
+    print("Same question as the others")
+    print("Clean it lightly or correctly")
+    print("A. Correctly")
+    print("B. lightly")
+    clean = input().lower()
+    if clean == "a":
+            plot52()
+    elif clean == "b":
+            plot53()
 
 def plot52(): 
-    print("")
+    print("So you clean it correctly because you have to sleep here")
+    print("You can't just sleep on garbage for the rest of your life")
+    print("Like the other rooms you sort all of it out")
+    print("You sort it into 2 piles")
+    print("Junk and collectibles")
+    print("After sorting all of it out you sell all the junk to someone")
+    print("And you clean the room before anything")
+    print("Then after the cleaning you put all the collectibles around the room")
+    print("You look at it with pride but that pride quickly fades when you realise you still have to do a lot")
+    print("So you better get to work")
+    plot47()
 
 def plot53(): 
-    print("")
+    print("So you clean it lightly")
+    print("lightly enough to live in it")
+    print("You begin with sorting all of it")
+    print("You throw the trash away and the junk and collectibles you keep in a corner")
+    print("It might not be cleaned correctly")
+    print("but atleast you can sleep in in")
+    plot47()
 
-def plot54(): 
-    print("")
+def plot54():
+    plot54.counter = 0
+    plot54.counter += 1 
+    print("So the kitchen now")
+    print("Welp better get to work")
+    print("right before we continue with all the cleaning")
+    print("How do you want to clean it")
+    print("Light or correctly?")
+    print("A. Correctly")
+    print("B. Lightly")
+    clen = input().lower()
+    if clen == "a":
+        plot55()
+    elif clen == "b":
+        plot56()
 
 def plot55(): 
-    print("")
+    print("So you clean it thoroughly. good choice")
+    print("Don't want anything nasty to get on your food now")
+    print("You thoroughly clean the kitchen tops for that exact reason")
+    print("You once again sort out the everything that doesn't belong in the kitchen")
+    print("or is just trash or junk")
+    print("Even after your done sorting it all")
+    print("You throw away the trash and sell the junk")
+    print("And any collectible you find you put around the kitchen as decoration")
+    print("When your done you see that your kitchen now looks like an actual kitchen")
+    print("And its something to be proud of")
+    print("now lets see what else we can clean correctly")
 
 def plot56(): 
-    print("")
+    print("You decide to clean the kitchen to a healthy extent")
+    print("You sort out the trash and junk")
+    print("You of course sell the junk and throw away the trash")
+    print("The only thing that you will clean thoroughly is the kitchen counter ")
+    print("Because health reasons")
+    print("After that you just continue cleaning you other rooms")
+    plot47()
+
 
 def plot57(): 
-    print("")
+    plot57.counter = 0
+    plot57.counter += 1
+    print("Ah yes the bathroom")
+    print("Now after you clean this you can finally take a shower")
+    print("Yes im saying you smell digusting")
+    print("Cunt.")
+    print("No but anyways how do you wanna do this one")
+    print("A. Correctly")
+    print("B. lightly")
+    Claen = input().lower()
+    if Claen == "a":
+        plot58()
+    elif Claen == "b":
+        plot59()
 
 def plot58(): 
-    print("")
+    print("You clean your bathroom thoroughly. Once again good choice")
+    print("Its not time to get sick yet")
+    print("You shower to stay healthy and smell good")
+    print("You do the usual you sort out everything like the other rooms")
+    print("You throw away the trash and sell the junk")
+    print("You put the collectibles in the other rooms")
+    print("Now you can finally shower again")
+    print("Now anything else left to clean?")
+    plot47()
 
 def plot59(): 
-    print("")
+    print("You really decide to do it lightly?")
+    print("No i don't accept that")
+    print("Ok well I can't really force you but yk")
+    print("You do the usual once again")
+    print("You throw the trash away and sell the junk")
+    print("The one thing you do clean thoroughly is the shower and sink")
+    print("No nasty things around here please")
+    print("After that hell you look if there is anything left to do")
+    plot47()
 
-def plot60(): 
-    print("")
-
-def plot61(): 
-    print("")
-
-def plot62(): 
-    print("")
-
-def plot63(): 
-    print("")
-
-def plot64(): 
-    print("")
-
-def plot65(): 
-    print("")
-
-def plot66(): 
+def plot60():
     print("")
 
 
@@ -692,6 +1170,9 @@ def eind4():
     print("")
 
 def eind5(): 
+    print("")
+
+def eind6():
     print("")
 
 def intro():
