@@ -1181,21 +1181,34 @@ def plot45():
 
 def plot46(): 
     print("You decide no its time to stop pushing everything away")
+    sleep(1)
     print("You return home to clean")
+    sleep(1)
     print("You look around and see which rooms are the worst")
+    sleep(1)
     print("Then you realise that every room is equally bad")
+    sleep(1)
     print("You think and start to realise that you have been living in this hell hole")
+    sleep(1)
     print("How did you never figure this out")
+    sleep(1)
     print("not even you know")
+    sleep(1)
     print("You don't have the biggest house")
+    sleep(1)
     plot47 ()
 
 def plot47(): 
     print("So you have 4 rooms to clean")
+    sleep(1)
     print("Which one goes first?")
+    sleep(1)
     print("You have to clean all of them")
+    sleep(1)
     print("you have enough time")
+    sleep(1)
     print("Think about it for a bit and then choose")
+    sleep(1)
     print("The rooms are")
     print("A. Living room")
     print("B. Bedroom")
@@ -1240,9 +1253,13 @@ def plot48():
     plot48.counter += 1
     
     print("You begin with the Living room")
+    sleep(1)
     print("Obviously since its the main room of the house")
+    sleep(1)
     print("The more you look around the more you realise how boring your house is")
+    sleep(1)
     print("You think should i clean correctly or just lightly enough to live and have some of your day left over")
+    sleep(1)
     print("so?")
     print("A. Correctly")
     print("B. Lightly")
@@ -1254,12 +1271,19 @@ def plot48():
 
 def plot49(): 
     print("You think well obviously i have to do it correctly")
+    sleep(1)
     print("You realise that there is a lot to do but you just do it")
+    sleep(1)
     print("You sort all of it into 2 piles")
+    sleep(1)
     print("Junk and collectibles")
+    sleep(1)
     print("All the junk you sell and the collectibles you keep")
+    sleep(1)
     print("After all the sorting you can finally begin cleaning")
+    sleep(1)
     print("When you're done you admire you work but realise you have so much more to do")
+    sleep(1)
     print("You sell all your junk and put the collectibles you put away around the room")
     plot47()
 
@@ -1277,9 +1301,13 @@ def plot51():
     plot51.counter = 0
     plot51.counter += 1
     print("Of course  your bedroom is one of the most important rooms")
+    sleep(1)
     print("Because well you sleep in it")
+    sleep(1)
     print("Pretty obvious not going to lie")
+    sleep(1)
     print("Same question as the others")
+    sleep(1)
     print("Clean it lightly or correctly")
     print("A. Correctly")
     print("B. lightly")
@@ -1291,23 +1319,37 @@ def plot51():
 
 def plot52(): 
     print("So you clean it correctly because you have to sleep here")
+    sleep(1)
     print("You can't just sleep on garbage for the rest of your life")
+    sleep(1)
     print("Like the other rooms you sort all of it out")
+    sleep(1)
     print("You sort it into 2 piles")
+    sleep(1)
     print("Junk and collectibles")
+    sleep(1)
     print("After sorting all of it out you sell all the junk to someone")
+    sleep(1)
     print("And you clean the room before anything")
+    sleep(1)
     print("Then after the cleaning you put all the collectibles around the room")
+    sleep(1)
     print("You look at it with pride but that pride quickly fades when you realise you still have to do a lot")
+    sleep(1)
     print("So you better get to work")
     plot47()
 
 def plot53(): 
     print("So you clean it lightly")
+    sleep(1)
     print("lightly enough to live in it")
+    sleep(1)
     print("You begin with sorting all of it")
+    sleep(1)
     print("You throw the trash away and the junk and collectibles you keep in a corner")
+    sleep(1)
     print("It might not be cleaned correctly")
+    sleep(1)
     print("but atleast you can sleep in in")
     plot47()
 
@@ -1315,9 +1357,13 @@ def plot54():
     plot54.counter = 0
     plot54.counter += 1 
     print("So the kitchen now")
+    sleep(1)
     print("Welp better get to work")
+    sleep(1)
     print("right before we continue with all the cleaning")
+    sleep(1)
     print("How do you want to clean it")
+    sleep(1)
     print("Light or correctly?")
     print("A. Correctly")
     print("B. Lightly")
@@ -1329,16 +1375,27 @@ def plot54():
 
 def plot55(): 
     print("So you clean it thoroughly. good choice")
+
     print("Don't want anything nasty to get on your food now")
+
     print("You thoroughly clean the kitchen tops for that exact reason")
+
     print("You once again sort out the everything that doesn't belong in the kitchen")
+
     print("or is just trash or junk")
+
     print("Even after your done sorting it all")
+
     print("You throw away the trash and sell the junk")
+
     print("And any collectible you find you put around the kitchen as decoration")
+
     print("When your done you see that your kitchen now looks like an actual kitchen")
+
     print("And its something to be proud of")
+
     print("now lets see what else we can clean correctly")
+    plot47()
 
 def plot56(): 
     print("You decide to clean the kitchen to a healthy extent")
